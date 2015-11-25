@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="654" class="org.formation.generation.Activator" localization="OSGI-INF/l10n/bundle" name="org.formation.generation" project="org.formation.generation">
+		<library name="."/>
+		<library name="bin"/>
+	</bundle>
+</map>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2013 Mia-Software.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+        Gregoire Dupe (Mia-Software) - Bug 409151 - Improve the feature descriptions
+ -->
+<feature
+      id="org.eclipse.emf.facet.examples.feature"
+      label="EMF Facet Examples"
+      version="1.0.0.201505181340"
+      provider-name="Eclipse Modeling Project">
+
+   <description url="http://www.eclipse.org/modeling/emft/facet/">
+      EMF Facet provides non-intrusive mechanisms to add new features (types, attributes, references and operations) to an EMF meta-model and to customize displaying of the EObjects (icons, labels, etc.). This feature contains a set of customizable widgets.
+   </description>
+
+   <copyright>
+      Copyright (c) 2011 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.facet.efacet.examples.library.core"
+         download-size="117"
+         install-size="343"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.efacet.examples.library.metamodel"
+         download-size="30"
+         install-size="56"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.efacet.examples.library.metamodel.edit"
+         download-size="24"
+         install-size="40"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.examples.library.core"
+         download-size="23"
+         install-size="40"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+</feature>

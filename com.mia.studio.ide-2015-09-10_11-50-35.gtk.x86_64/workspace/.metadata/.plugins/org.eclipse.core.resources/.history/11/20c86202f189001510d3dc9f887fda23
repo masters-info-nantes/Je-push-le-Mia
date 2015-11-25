@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="com.mia.miniprojet.mvc2java.generation.swt" METAMODEL="MVC" NUMBER="15"
+>
+	<fileHeader version="5" toolName="Mia-Generation" toolVersion="9.2.0"/>
+	<SCENARIO NAME="ModelGeneration" VISIBILITY="public" META_OBJECT="Model" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="com.mia.miniprojet.mvc2java.generation.swt" META_OBJECT="Model" CATEGORY="default" NAME="interface" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="com.mia.miniprojet.mvc2java.generation.swt" META_OBJECT="Model" CATEGORY="default" NAME="classes" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCENARIO NAME="view-generation" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="View"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="com.mia.miniprojet.mvc2java.generation.swt" META_OBJECT="View" CATEGORY="default" NAME="interface-view" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="com.mia.miniprojet.mvc2java.generation.swt" META_OBJECT="View" CATEGORY="default" NAME="interface-controler" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCRIPT NAME="attribute-naire-impl-method" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+private List<com.mia.miniprojet.mvc2java.generation.model.I[[name@¤] list[[name]];
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="classes" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.miniprojet.mvc2java.generation.model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class [[name]] implements com.mia.miniprojet.mvc2java.generation.model.I[[name]] {
+[[properties.attribute-impl-method]]
+[[ownedElements.attribute-naire-impl-method]]
+[[properties.get-set-impl-method]]
+[[ownedElements.get-set-naire-impl-method]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="classes$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com/mia/miniprojet/mvc2java/generation/model/impl/[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="get-set-naire-impl-method" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+public List<com.mia.miniprojet.mvc2java.generation.model.I[[name@¤] get[[name]]s() {
+		if (this.list[[name]] == null) {
+			this.list[[name]] = new ArrayList<com.mia.miniprojet.mvc2java.generation.model.I[[name@¤]();
+		}
+		return this.list[[name]];
+}
+	
+public void set[[name]]s(List<com.mia.miniprojet.mvc2java.generation.model.I[[name@¤] newValue) {
+		this.list[[name]] = newValue;
+}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="get-set-naire-method" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+public List<I[[name@¤] get[[name]]s();
+public void set[[name]]s(List<I[[name@¤] newValue);
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="interface" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.miniprojet.mvc2java.generation.model;
+
+import java.util.List;
+
+public interface I[[name]] {
+[[properties.get-set-method]]
+[[ownedElements.get-set-naire-method]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="interface$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com/mia/miniprojet/mvc2java/generation/model/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="attribute-impl-method" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+private String [[name]];
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="get-set-impl-method" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+public String get[[name]](){
+	return this.[[name]];
+}
+
+public void set[[name]](String newValue){
+	this.[[name]]=newValue;
+}
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="get-set-method" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+public String get[[name]]();
+public void set[[name]](String newValue);
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="actions-view" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+public void [[actions.name]]();
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="interface-controler" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.miniprojet.mvc2java.generation.ui.controler;
+
+public interface I[[model.name]]Controler {
+public void initView();
+[[actions-view]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="interface-controler$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com/mia/miniprojet/mvc2java/generation/ui/controler/I[[model.name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="interface-view" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.miniprojet.mvc2java.generation.ui.view;
+
+public interface I[[name]] {
+[[actions-view]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="interface-view$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com/mia/miniprojet/mvc2java/generation/ui/view/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+</PACKAGE>

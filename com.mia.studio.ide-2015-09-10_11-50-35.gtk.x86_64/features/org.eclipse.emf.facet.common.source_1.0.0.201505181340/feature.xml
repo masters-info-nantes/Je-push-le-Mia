@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.facet.common.source"
+         label="EMF Facet Common Feature Source"
+         version="1.0.0.201505181340"
+         provider-name="Eclipse Modeling Project">
+   <description url="http://www.eclipse.org/modeling/emft/facet/">
+      EMF Facet provides non-intrusive mechanisms to add new features (types, attributes, references and operations) to an EMF meta-model and to customize displaying of the EObjects (icons, labels, etc.). This feature contains the common plug-ins of EMF Facet.
+   </description>
+   <copyright>
+      Copyright (c) 2010, 2011 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+   <license url="%licenseURL">
+      %license
+   </license>
+   <plugin id="org.eclipse.emf.facet.common.core.source" download-size="12"
+           install-size="24"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.common.ui.source" download-size="29" install-size="58"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.efacet.core.source" download-size="113"
+           install-size="357"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.java.core.source" download-size="20"
+           install-size="36"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.doc.source" download-size="8" install-size="13"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.efacet.ui.source" download-size="120" install-size="305"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.java.ui.source" download-size="13"
+           install-size="19"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.core.source" download-size="32"
+           install-size="67"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.metamodel.source" download-size="100"
+           install-size="338"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.ui.source" download-size="96" install-size="284"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.java.metamodel.source" download-size="21"
+           install-size="46"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.efacet.metamodel.source" download-size="208"
+           install-size="830"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.metamodel.edit.source" download-size="20"
+           install-size="53"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.efacet.metamodel.edit.source" download-size="104"
+           install-size="399"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.aggregate.metamodel.source" download-size="53"
+           install-size="215"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.aggregate.metamodel.notgenerated.source"
+           download-size="22"
+           install-size="42"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.doc.source" download-size="6" install-size="8"
+           version="1.0.0.201505181340"/>
+   <plugin id="org.eclipse.emf.facet.efacet.doc.source" download-size="6" install-size="8"
+           version="1.0.0.201505181340"/>
+   <plugin id="org.eclipse.emf.facet.aggregate.doc.source" download-size="6"
+           install-size="8"
+           version="1.0.0.201505181340"/>
+   <plugin id="org.eclipse.emf.facet.ecore.source" download-size="11" install-size="15"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.capabilities.source" download-size="6"
+           install-size="8"
+           version="1.0.0.201505181340"/>
+   <plugin id="org.eclipse.emf.facet.efacet.metamodel.editor.source" download-size="90"
+           install-size="389"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.efacet.sdk.ui.source" download-size="168"
+           install-size="420"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.sdk.core.source" download-size="19"
+           install-size="34"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.sdk.ui.source" download-size="80"
+           install-size="168"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.java.sdk.ui.source" download-size="30"
+           install-size="63"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.ocl.sdk.ui.source" download-size="23"
+           install-size="38"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.ocl.core.source" download-size="13"
+           install-size="25"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.query.ocl.metamodel.source" download-size="19"
+           install-size="46"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.custom.metamodel.editor.source" download-size="27"
+           install-size="101"
+           version="1.0.0.201505181340"
+           unpack="false"/>
+</feature>

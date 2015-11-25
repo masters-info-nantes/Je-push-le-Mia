@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: q8GgLcJ7XHa97zxp982zprOP1peb+
+ BmYHqGFulzYiFY=
+SHA-256-Digest-Manifest: hg+5Nshehx08iNk2tlj6ea32zfxEAZFCemHxNMANgUA=
+Created-By: 1.8.0_40 (Oracle Corporation)
+
+Name: about.html
+SHA-256-Digest: o+M7pD+N7aNw8/vRxW+bskJMa52/CjHcYuYI4Z+2vmY=
+
+Name: epl-v10.html
+SHA-256-Digest: 8GSw4aNBim+4CHFc1TYSYQy3Ei4T2BVP57HxmJUvTBs=
+
+Name: META-INF/maven/org.eclipse.emft/org.eclipse.emf.facet.common.fea
+ ture/pom.xml
+SHA-256-Digest: BstY+CU794taimE8PYxrN71d8B5KTPu23sZ6XfnxQiE=
+
+Name: feature.xml
+SHA-256-Digest: nIDlJmMijfpPZEudsRTZLHdXXuEJsJbZH39GXCm5lUs=
+
+Name: feature.properties
+SHA-256-Digest: pOqFx4UWHH5W3KuormiqWJ7bZryqs853Atzbm0uOPkc=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+
+Name: META-INF/maven/org.eclipse.emft/org.eclipse.emf.facet.common.fea
+ ture/pom.properties
+SHA-256-Digest: Nkx2Gk6f1rs/sIZzOwMzRBpa3ziBTa8eAgedEzzx/Tg=
+

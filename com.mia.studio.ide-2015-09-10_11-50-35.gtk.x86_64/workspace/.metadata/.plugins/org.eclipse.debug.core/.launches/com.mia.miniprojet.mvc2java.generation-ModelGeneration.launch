@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mia.studio.generation.core.launch">
+<stringAttribute key="applicableType" value="Model"/>
+<booleanAttribute key="applyToSubtypes" value="true"/>
+<stringAttribute key="bundleSymbolicName" value="com.mia.miniprojet.mvc2java.generation"/>
+<booleanAttribute key="exportUnusedScripts" value="false"/>
+<booleanAttribute key="exportUsedScripts" value="false"/>
+<booleanAttribute key="generateBeforeWriting" value="false"/>
+<booleanAttribute key="generateIntoFile" value="true"/>
+<booleanAttribute key="generateOnScreen" value="false"/>
+<booleanAttribute key="generateTraces" value="true"/>
+<stringAttribute key="lineSeparator" value="System default"/>
+<stringAttribute key="metamodel" value="MVC"/>
+<stringAttribute key="modelManagerSelectedURI" value="platform:/resource/com.mia.banque.application.reference/models/banqueApplication.mvc.xmi"/>
+<stringAttribute key="outputDirectory" value="platform:/resource/com.mia.banque.application.generated/src"/>
+<booleanAttribute key="outputDirectoryAsSource" value="true"/>
+<listAttribute key="outputDirectoryHistory">
+<listEntry value="platform:/resource/com.mia.banque.application.generated/src"/>
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace"/>
+</listAttribute>
+<booleanAttribute key="overwriteOnlyWhenModified" value="false"/>
+<stringAttribute key="packageName" value="com.mia.miniprojet.mvc2java.generation.swt"/>
+<booleanAttribute key="proposeDependencies" value="false"/>
+<booleanAttribute key="refreshGenerationDirectory" value="true"/>
+<booleanAttribute key="refreshModelBeforeGeneration" value="false"/>
+<booleanAttribute key="refreshModelBeforeGenerationAllowed" value="true"/>
+<stringAttribute key="scenarioMetaObject" value="Model"/>
+<stringAttribute key="scenarioName" value="ModelGeneration"/>
+<booleanAttribute key="selectionWithModelManager" value="true"/>
+<stringAttribute key="sourceDirectory" value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace"/>
+<listAttribute key="sourceDirectoryHistory">
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace"/>
+</listAttribute>
+<stringAttribute key="unusedScriptsExportLocation" value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/exportUnusedScripts.csv"/>
+<listAttribute key="unusedScriptsExportLocationHistory">
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/exportUnusedScripts.csv"/>
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/"/>
+</listAttribute>
+<stringAttribute key="usedScriptsExportLocation" value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/exportUsedScripts.csv"/>
+<listAttribute key="usedScriptsExportLocationHistory">
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/exportUsedScripts.csv"/>
+<listEntry value="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/"/>
+</listAttribute>
+<booleanAttribute key="workspaceOnly" value="false"/>
+</launchConfiguration>

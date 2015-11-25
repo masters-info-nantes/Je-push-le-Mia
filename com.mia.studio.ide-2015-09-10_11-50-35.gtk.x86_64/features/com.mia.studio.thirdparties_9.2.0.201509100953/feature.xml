@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.studio.thirdparties"
+      label="%featureName"
+      version="9.2.0.201509100953"
+      provider-name="Mia-Software"
+      plugin="com.mia.studio.thirdparties.branding">
+
+   <description url="www.mia-software.com">
+      %description
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Licensed Material - Property of Mia-Software
+(C) Copyright Mia-Software 2015 - All Rights Reserved.
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.facet.sdk.feature"
+         version="1.0.0.201505181340"/>
+
+   <includes
+         id="org.eclipse.modisco.infrastructure.feature"
+         version="0.12.0.201405261503"/>
+
+   <includes
+         id="org.eclipse.modisco.infra.omg.feature"
+         version="0.12.0.201405261503"/>
+
+   <includes
+         id="org.eclipse.emf.facet.sdk.source"
+         version="1.0.0.201505181340"/>
+
+   <includes
+         id="org.eclipse.modisco.infra.omg.source"
+         version="0.12.0.201405261503"/>
+
+   <includes
+         id="org.eclipse.modisco.infrastructure.source"
+         version="0.12.0.201405261503"/>
+
+   <includes
+         id="com.mia.itmf.lm"
+         version="1.8.0.201508070849"/>
+
+   <includes
+         id="org.eclipse.modisco.xml.feature"
+         version="0.12.0.201405261503"/>
+
+   <includes
+         id="com.mia.itmf.modelmanager"
+         version="1.8.0.201508070849"/>
+
+   <plugin
+         id="com.mia.itmf.common.ui"
+         download-size="23"
+         install-size="41"
+         version="1.8.0.201508070849"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.thirdparties.branding"
+         download-size="5"
+         install-size="5"
+         version="9.2.0.201509100953"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.swt.ui"
+         download-size="42"
+         install-size="73"
+         version="1.8.0.201509040847"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.jface.ui"
+         download-size="42"
+         install-size="82"
+         version="1.8.0.201509040847"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.eclipse.ui"
+         download-size="26"
+         install-size="45"
+         version="1.8.0.201509040847"
+         unpack="false"/>
+
+</feature>

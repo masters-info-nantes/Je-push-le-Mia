@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2013 Mia-Software.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+        Gregoire Dupe (Mia-Software) - Bug 409151 - Improve the feature descriptions
+ -->
+<feature
+      id="org.eclipse.emf.facet.widgets.feature"
+      label="EMF Facet&apos;s customizable widgets"
+      version="1.0.0.201505181340"
+      provider-name="Eclipse Modeling Project">
+
+   <description url="http://www.eclipse.org/modeling/emft/facet/">
+      EMF Facet provides non-intrusive mechanisms to add new features (types, attributes, references and operations) to an EMF meta-model and to customize displaying of the EObjects (icons, labels, etc.). This feature contains a set of customizable widgets.
+   </description>
+
+   <copyright>
+      Copyright (c) 2010, 2011 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets"
+         download-size="39"
+         install-size="55"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.celleditors"
+         download-size="151"
+         install-size="321"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.celleditors.ecore"
+         download-size="101"
+         install-size="200"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.celleditors.ecore.tests.samplemm"
+         download-size="41"
+         install-size="95"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.celleditors.edit"
+         download-size="31"
+         install-size="55"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.celleditors.editor"
+         download-size="79"
+         install-size="160"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.metamodel"
+         download-size="75"
+         install-size="172"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.ui"
+         download-size="297"
+         install-size="700"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.ui.nattable"
+         download-size="112"
+         install-size="250"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.ui.workbench"
+         download-size="61"
+         install-size="129"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.metamodel.edit"
+         download-size="67"
+         install-size="112"
+         version="1.0.0.201505181340"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.facet.widgets.table.doc"
+         download-size="556"
+         install-size="614"
+         version="1.0.0.201505181340"/>
+
+</feature>

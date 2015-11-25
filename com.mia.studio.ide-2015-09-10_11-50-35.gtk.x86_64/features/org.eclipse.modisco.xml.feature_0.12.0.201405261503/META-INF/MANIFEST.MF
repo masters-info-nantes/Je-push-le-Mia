@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_21
+Built-By: hudsonbuild
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: jYDaDJLBJpthCwPMgGFVYASJjIU=
+
+Name: META-INF/maven/org.eclipse.mdt/org.eclipse.modisco.xml.feature/p
+ om.xml
+SHA1-Digest: l7Dh8HxNEb1zpjF90R1KDDi8g68=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: META-INF/maven/org.eclipse.mdt/org.eclipse.modisco.xml.feature/p
+ om.properties
+SHA1-Digest: bZcBFn79pbFGIjrPGo5EFMI9CoM=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: FAAX4pXYDHu6r25QF8pUNnm+zGo=
+
+Name: feature.xml
+SHA1-Digest: yZxZwVOdL1ZPnA+TT5N1ORTHdz8=
+

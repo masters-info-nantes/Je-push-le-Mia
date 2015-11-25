@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.itmf.modelmanager"
+      label="%featureName"
+      version="1.8.0.201508070849"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2011-2012 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the license
+which accompanies this distribution
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="com.mia.itmf.modelmanager.core"
+         download-size="50"
+         install-size="92"
+         version="1.8.0.201508070849"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.modelmanager.ui"
+         download-size="180"
+         install-size="352"
+         version="1.8.0.201508070849"
+         unpack="false"/>
+
+</feature>

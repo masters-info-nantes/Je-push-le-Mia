@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1441882207662'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='18'>
+    <artifact classifier='binary' id='org.eclipse.emf.validation.sdk_root' version='1.7.0.201306111341'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.transaction_root' version='1.7.0.201306111400'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.workspace_root' version='1.7.0.201306111400'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.query_root' version='1.7.0.201306111332'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.validation.doc_root' version='1.7.0.201306111341'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.validation.ocl_root' version='1.7.0.201306111341'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.3.2.v20140221-1700'>
+      <properties size='1'>
+        <property name='download.size' value='37259'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.transaction.sdk_root' version='1.7.0.201306111400'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.jdt_root' version='3.9.2.v20140221-1700'>
+      <properties size='1'>
+        <property name='download.size' value='8902'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.mia.studio.feature_root' version='9.2.0.201509100953'>
+      <properties size='1'>
+        <property name='download.size' value='772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.query.sdk_root' version='1.7.0.201306111332'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.platform_root' version='4.3.2.v20140221-1852'>
+      <properties size='1'>
+        <property name='download.size' value='9030'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.workspace.doc_root' version='1.7.0.201306111400'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.mia.studio.ide.eclipsepackage.executable.gtk.linux.x86_64' version='9.1.0.201509100953'>
+      <properties size='1'>
+        <property name='download.size' value='195504'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.query.doc_root' version='1.7.0.201306111332'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.validation_root' version='1.7.0.201306111341'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.query.ocl_root' version='1.7.0.201306111332'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.emf.transaction.doc_root' version='1.7.0.201306111400'>
+      <properties size='1'>
+        <property name='download.size' value='7720'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

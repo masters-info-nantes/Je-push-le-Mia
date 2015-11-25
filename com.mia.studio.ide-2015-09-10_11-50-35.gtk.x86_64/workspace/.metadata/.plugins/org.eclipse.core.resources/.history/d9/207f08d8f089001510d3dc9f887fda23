@@ -1,0 +1,6 @@
+package com.mia.miniprojet.mvc2java.generation.ui.controler;
+
+public interface IClientView {
+public void initView();
+public void afficherComptequitter();
+}

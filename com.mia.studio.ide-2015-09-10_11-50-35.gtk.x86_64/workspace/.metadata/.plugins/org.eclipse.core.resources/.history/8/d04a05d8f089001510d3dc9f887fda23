@@ -1,0 +1,6 @@
+package com.mia.miniprojet.mvc2java.generation.ui.controler;
+
+public interface IBanqueView {
+public void initView();
+public void afficherClientquitter();
+}

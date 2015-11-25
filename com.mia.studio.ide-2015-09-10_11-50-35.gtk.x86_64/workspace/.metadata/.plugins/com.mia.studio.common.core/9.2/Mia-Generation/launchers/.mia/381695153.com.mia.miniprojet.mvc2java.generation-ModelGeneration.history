@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <launcher name="com.mia.miniprojet.mvc2java.generation-ModelGeneration">
+    <source directory="file:/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace">
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/IBanque.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/impl/Banque.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/IClient.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/impl/Client.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/ICompte.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/impl/Compte.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/IOperation.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E114420U/M2/option/com.mia.studio.ide-2015-09-10_11-50-35.gtk.x86_64/workspace/com.mia.banque.application.generated/src/com/mia/miniprojet/mvc2java/generation/model/impl/Operation.java"
+        status="modified" fileEncoding="UTF-8"/>
+    </source>
+  </launcher>
+</history>

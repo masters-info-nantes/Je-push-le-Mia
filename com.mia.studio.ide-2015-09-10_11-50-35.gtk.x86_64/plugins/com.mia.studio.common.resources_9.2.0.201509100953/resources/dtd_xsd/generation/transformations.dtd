@@ -1,0 +1,23 @@
+<!ELEMENT	parameters	(fileHeader?, scenario*)>
+
+<!ELEMENT	scenario 	(transformation)*>
+<!ATTLIST	scenario 	name>
+
+<!ELEMENT	transformation	EMPTY>
+<!ATTLIST	transformation
+				name					CDATA	#REQUIRED
+				modelFilename			CDATA	#REQUIRED
+				transformationReader	CDATA	#REQUIRED
+				transformationWriter	CDATA	#REQUIRED
+				generationReader		CDATA	#REQUIRED
+				projectDirectory		CDATA	#IMPLIED
+				>
+				
+<!ELEMENT fileHeader	EMPTY>
+<!ATTLIST fileHeader	
+				version				CDATA	#REQUIRED
+				date				CDATA	#IMPLIED
+				timestamp			CDATA	#IMPLIED
+				toolName			CDATA	#IMPLIED
+				toolVersion			CDATA	#IMPLIED
+				>

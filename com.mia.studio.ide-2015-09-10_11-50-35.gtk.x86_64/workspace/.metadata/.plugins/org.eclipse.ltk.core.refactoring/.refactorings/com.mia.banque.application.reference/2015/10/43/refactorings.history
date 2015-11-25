@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.mia.banque.application.reference/models/banqueApplication.mvc&apos; to &apos;banqueApplication.mvc.xmi&apos;" description="Rename resource &apos;banqueApplication.mvc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="models/banqueApplication.mvc" name="banqueApplication.mvc.xmi" stamp="1445587344216" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+package com.mia.miniprojet.mvc2java.generation.ui.view;
+
+public interface IOperationView {
+public void quitter();
+
+}

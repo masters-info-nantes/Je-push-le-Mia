@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/mia/miniprojet/mvc2java/generation/model/IBanque.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/model/IClient.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/model/impl/Banque.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/model/impl/Client.java=UTF-8
