@@ -11,6 +11,10 @@ encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/IBanqueControl
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/IClientControler.java=UTF-8
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/ICompteControler.java=UTF-8
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/IOperationControler.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/swt/BanqueControler.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/swt/ClientControler.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/swt/CompteControler.java=UTF-8
+encoding//src/com/mia/miniprojet/mvc2java/generation/ui/controler/swt/OperationControler.java=UTF-8
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/view/IBanqueView.java=UTF-8
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/view/IClientView.java=UTF-8
 encoding//src/com/mia/miniprojet/mvc2java/generation/ui/view/ICompteView.java=UTF-8
